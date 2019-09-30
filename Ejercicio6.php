@@ -27,8 +27,6 @@
 
 		array_push($array[$mes], $nombre);
 
-		print_r($array);
-
 		$cnt = 0;
 
 		foreach ($array as $x) {
@@ -41,7 +39,7 @@
 
 	$resultado = nuevoNombre($a, 'Noviembre','Gorka');
 
-	$codigo =  "<br> $resultado";
+	echo  "<br> Total personas en el calendario: $resultado";
 
 	/*Tabla*/
 	
